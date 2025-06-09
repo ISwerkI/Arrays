@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Arrays\Shifts.cpp">
+    <ClCompile Include="Shifts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

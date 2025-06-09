@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//#define SHIFT_RIGHT
+#define SHIFT_RIGHT
 //#define SHIFT_LEFT
 
 void main()
@@ -47,7 +47,7 @@ void main()
 		{
 			if (arr[b] == 0)
 			{
-				arr[b] = 10;
+				arr[b] = SIZE;
 			}
 			arr[b] = arr[b]-1;
 		}
