@@ -24,7 +24,7 @@ void main()
 		{
 				arr[a] = arr[a + 1];
 		}
-		arr[9] = record;
+		arr[SIZE-1] = record;
 	}
 	for (int b = 0; b < SIZE; b++)
 	{
