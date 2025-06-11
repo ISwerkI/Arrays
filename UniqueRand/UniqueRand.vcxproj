@@ -24,6 +24,7 @@
     <ProjectGuid>{ec62eae4-e0c8-4308-8407-c815ad924128}</ProjectGuid>
     <RootNamespace>UniqueRand</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>NOTUniqueRand</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

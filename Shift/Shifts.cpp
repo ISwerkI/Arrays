@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-#define SHIFT_RIGHT
+//#define SHIFT_RIGHT
 //#define SHIFT_LEFT
 
 void main()
@@ -20,7 +20,7 @@ void main()
 	for (int i = 0; i < shift; i++)
 	{
 		record = arr[0];
-		for (int a = 0; a < 9; a++)
+		for (int a = 0; a < SIZE; a++)
 		{
 				arr[a] = arr[a + 1];
 		}
@@ -32,7 +32,7 @@ void main()
 	}
 #endif
 #ifdef SHIFT_RIGHT
-	const int SIZE = 10;
+	const int SIZE = 20;
 	int shift;
 	int record;
 	cout << "¬ведите количество сдвигов: "; cin >> shift;
@@ -43,7 +43,7 @@ void main()
 	}
 	for (int i = 0; i < shift; i++)
 	{
-		for (int b = 0; b < 10; b++)
+		for (int b = 0; b < SIZE; b++)
 		{
 			if (arr[b] == 0)
 			{
