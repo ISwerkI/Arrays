@@ -32,10 +32,10 @@ void main()
 	{
 		for (int j = 0; j < COLS; j++)
 		{
-			counter = 1;
+			counter = 0;
 			for (int a = 0; a < ROWS; a++)
 			{
-				for (int b = ; b < COLS; b++)
+				for (int b = 0; b < COLS; b++)
 				{
 					if (arr[i][j] == arr[a][b])counter++;
 				}
